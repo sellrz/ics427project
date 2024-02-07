@@ -16,9 +16,9 @@
 
 ### Joel Vanta
 
-### Sean S
+### Sean Sunoo
 
-### Nick
+### Nick Beydler
 
 ---
 
