@@ -18,7 +18,7 @@
 
 ### Sean Sunoo
 
-### Nick Beydler
+### Nicholas Beydler
 
 ---
 
