@@ -1,9 +1,8 @@
 # SELLRZ
 
 ## What is Complete So Far
-
-- Initialized the Git repository.
-- Utilized the Meteor React template as the foundation for our project.
+<li>- Initialized the Git repository.
+- Utilized the Meteor React template as the foundation for our project.</li>
 
 ## What is Pending
 
