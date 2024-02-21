@@ -16,6 +16,7 @@
 -depreciated/unsafe functions
 ### Joel Vanta
 -approved tools
+-Landing page
 
 ### Sean Sunoo
 -item data schema
