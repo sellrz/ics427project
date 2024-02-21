@@ -3,6 +3,7 @@
 ## What is Complete So Far
 - Initialized the Git repository.
 - Utilized the Meteor React template as the foundation for our project.
+- Landing Page with a site-wide background.
 
 ## What is Pending
 
