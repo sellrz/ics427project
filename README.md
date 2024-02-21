@@ -14,9 +14,10 @@
 ### Omar Zaidi
 - Deprecated/Unsafe functions
 - Edit Profile feature
+
 ### Joel Vanta
 - Approved tools
-- Landing page
+- Profile page
 
 ### Sean Sunoo
 - Item data schema
@@ -26,7 +27,8 @@
 
 ### Nicholas Beydler
 - Static analysis
-- Edit item page
+- Landing page
+- Edit item feature
 ---
 
 This README will be updated as the project progresses to reflect the latest developments and task assignments.
