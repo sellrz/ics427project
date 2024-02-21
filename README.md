@@ -13,13 +13,19 @@
 ## Team Members & Contributions
 
 ### Omar Zaidi
-
+-depreciated/unsafe functions
 ### Joel Vanta
+-approved tools
 
 ### Sean Sunoo
+-item data schema
+-depreciated/unsafe functions
+-Additem page
+-Edititem page
+-components: useritem, item, itemadmin
 
 ### Nicholas Beydler
-
+- Static analysis
 ---
 
 This README will be updated as the project progresses to reflect the latest developments and task assignments.
