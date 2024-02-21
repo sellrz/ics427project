@@ -18,6 +18,13 @@ import SignIn from '../pages/SignIn';
 import NotAuthorized from '../pages/NotAuthorized';
 import LoadingSpinner from '../components/LoadingSpinner';
 
+/** Item */
+// import ListItem from '../pages/ListItem';
+// import AddItem from '../pages/AddItem';
+// import ListItemAdmin from '../pages/ListItemAdmin';
+// import EditItem from '../pages/EditItem';
+// import ListItemUser from '../pages/ListItemUser';
+
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 const App = () => {
   const { ready } = useTracker(() => {
@@ -37,6 +44,13 @@ const App = () => {
           <Route path="/signout" element={<SignOut />} />
           <Route path="/home" element={<ProtectedRoute><Landing /></ProtectedRoute>} />
           <Route path="/list" element={<ProtectedRoute><ListStuff /></ProtectedRoute>} />
+
+          {/*<Route path="/addItem" element={<ProtectedRoute><AddItem /></ProtectedRoute>} />*/}
+          {/*<Route path="/listItem" element={<ProtectedRoute><ListItem /></ProtectedRoute>} />*/}
+          {/*<Route path="/userListItem" element={<ProtectedRoute><ListItemUser /></ProtectedRoute>} />*/}
+          {/*<Route path="/editItem/:_id" element={<ProtectedRoute><EditItem /></ProtectedRoute>} />*/}
+          {/*<Route path="/listItemAdmin" element={<AdminProtectedRoute ready={ready}><ListItemAdmin /></AdminProtectedRoute>} />*/}
+
           <Route path="/add" element={<ProtectedRoute><AddStuff /></ProtectedRoute>} />
           <Route path="/edit/:_id" element={<ProtectedRoute><EditStuff /></ProtectedRoute>} />
           <Route path="/admin" element={<AdminProtectedRoute ready={ready}><ListStuffAdmin /></AdminProtectedRoute>} />
