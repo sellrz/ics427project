@@ -12,21 +12,21 @@
 ## Team Members & Contributions
 
 ### Omar Zaidi
-- depreciated/unsafe functions
-  
+- Deprecated/Unsafe functions
+- Edit Profile feature
 ### Joel Vanta
 - Approved tools
 - Landing page
 
 ### Sean Sunoo
 - Item data schema
-- Depreciated/unsafe functions
-- Additem page
-- Edititem page
+- Deprecated/Unsafe functions
+- Add item page
 - Components: useritem, item, itemadmin
 
 ### Nicholas Beydler
 - Static analysis
+- Edit item page
 ---
 
 This README will be updated as the project progresses to reflect the latest developments and task assignments.
