@@ -1,8 +1,8 @@
 # SELLRZ
 
 ## What is Complete So Far
-<li>- Initialized the Git repository.
-- Utilized the Meteor React template as the foundation for our project.</li>
+- Initialized the Git repository.
+- Utilized the Meteor React template as the foundation for our project.
 
 ## What is Pending
 
@@ -12,10 +12,10 @@
 ## Team Members & Contributions
 
 ### Omar Zaidi
--depreciated/unsafe functions
+- depreciated/unsafe functions
 ### Joel Vanta
--approved tools
--Landing page
+- Approved tools
+- Landing page
 
 ### Sean Sunoo
 -item data schema
