@@ -13,16 +13,17 @@
 
 ### Omar Zaidi
 - depreciated/unsafe functions
+  
 ### Joel Vanta
 - Approved tools
 - Landing page
 
 ### Sean Sunoo
--item data schema
--depreciated/unsafe functions
--Additem page
--Edititem page
--components: useritem, item, itemadmin
+- Item data schema
+- Depreciated/unsafe functions
+- Additem page
+- Edititem page
+- Components: useritem, item, itemadmin
 
 ### Nicholas Beydler
 - Static analysis
