@@ -1,9 +1,14 @@
 # SELLRZ
 
+##ONLINE REPOSITORY link:
+https://github.com/sellrz/ics427project
+
 ## What is Complete So Far
 - Initialized the Git repository.
 - Utilized the Meteor React template as the foundation for our project.
 - Landing Page with a site-wide background.
+- Profile page with collection
+- Test Cafe to check the functionality of the pages
 
 ## What is Pending
 
@@ -19,6 +24,7 @@
 ### Joel Vanta
 - Approved tools
 - Profile page
+- Test Cafe
 
 ### Sean Sunoo
 - Item data schema
