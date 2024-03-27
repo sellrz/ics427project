@@ -1,6 +1,6 @@
 # SELLRZ
 
-##ONLINE REPOSITORY link:
+## ONLINE REPOSITORY link:
 https://github.com/sellrz/ics427project
 
 ## What is Complete So Far
