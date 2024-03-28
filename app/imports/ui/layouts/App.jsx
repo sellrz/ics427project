@@ -17,6 +17,11 @@ import NavBar from '../components/NavBar';
 import SignIn from '../pages/SignIn';
 import NotAuthorized from '../pages/NotAuthorized';
 import LoadingSpinner from '../components/LoadingSpinner';
+/** Profile */
+import UserProfile from '../pages/UserProfile';
+import AddProfile from '../pages/AddProfile';
+import EditProfile from '../pages/EditProfile';
+
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 const App = () => {
