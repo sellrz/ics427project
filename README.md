@@ -24,7 +24,7 @@ https://github.com/sellrz/ics427project
 ### Joel Vanta
 - Approved tools
 - Profile page, Add profile, Edit profile
-- Test Cafe
+- Dynamic analysis tool - Test Cafe
 
 ### Sean Sunoo
 - Item data schema
