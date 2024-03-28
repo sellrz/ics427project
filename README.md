@@ -23,7 +23,7 @@ https://github.com/sellrz/ics427project
 
 ### Joel Vanta
 - Approved tools
-- Profile page
+- Profile page, Add profile, Edit profile
 - Test Cafe
 
 ### Sean Sunoo
