@@ -42,6 +42,11 @@ class NavBar {
     await testController.click('#navbar-sign-out');
   }
 
+  /* Go to the profile page. */
+  async gotoProfilePage(testController) {
+    await testController.click('#profile-nav');
+  }
+
   /** Pull down login menu, go to sign up page. */
   async gotoSignUpPage(testController) {
     await this.ensureLogout(testController);

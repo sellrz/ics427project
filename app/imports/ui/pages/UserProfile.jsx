@@ -1,11 +1,10 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Col, Container, Row, Table } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useTracker } from 'meteor/react-meteor-data';
 import LoadingSpinner from '../components/LoadingSpinner';
 import Profile from '../components/Profile';
 import { Profiles } from '../../api/profile/Profiles';
-import { Items } from '../../api/item/Item';
 
 /* Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 const UserProfile = () => {
@@ -15,16 +14,13 @@ const UserProfile = () => {
     // when your component is unmounted or deps change.
     // Get access to Stuff documents.
     const subscription1 = Meteor.subscribe(Profiles.userPublicationName);
-    const subscription2 = Meteor.subscribe(Items.userPublicationName);
     // Determine if the subscription is ready
-    const rdy = subscription1.ready() && subscription2.ready();
+    const rdy = subscription1.ready();
     // Get the Profile documents
     const profilesprofiles = Profiles.collection.find({}).fetch();
-    const itemsitems = Items.collection.find({}).fetch();
 
     return {
       profiles: profilesprofiles,
-      items: itemsitems,
       ready: rdy,
     };
   }, []);
@@ -40,23 +36,6 @@ const UserProfile = () => {
             <Row xs={1} md={2} lg={3} className="g-4">
               <Col>
                 {profiles.map((profile) => (<Profile key={profile._id} profile={profile} />))}
-              </Col>
-              <Col>
-                <Table striped bordered hover variant="light" style={{ border: '3px solid black' }}>
-                  <thead>
-                    <tr>
-                      <th>Image</th>
-                      <th>Name</th>
-                      <th>Quantity</th>
-                      <th>Price</th>
-                      <th>Condition</th>
-                      <th>Category</th>
-                      <th>Description</th>
-                      <th>Edit</th>
-                      <th>Remove</th>
-                    </tr>
-                  </thead>
-                </Table>
               </Col>
             </Row>
           </Col>
