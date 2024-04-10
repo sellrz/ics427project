@@ -11,6 +11,12 @@ const addData = (data) => {
 };
 
 // Initialize the ItemsCollection if empty.
+if (Items.collection.find().count() === 0) {
+  if (Meteor.settings.defaultData) {
+    console.log('Creating default Items.');
+    Meteor.settings.defaultData.forEach(data => addData(data));
+  }
+}
 
 // ProfileCollection
 const addProfile = (profile) => {
