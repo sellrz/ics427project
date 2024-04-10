@@ -29,8 +29,9 @@ https://github.com/sellrz/ics427project
 ### Sean Sunoo
 - Item data schema
 - Deprecated/Unsafe functions
-- Add item page
+- Pages: Add item, edit item, list item, list item user, list item admin
 - Components: useritem, item, itemadmin
+
 
 ### Nicholas Beydler
 - Static analysis
