@@ -5,9 +5,13 @@
   ],
 
   "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
+    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "Excellent", "price": 8, "image": "https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg", "category": "Household" },
+    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "Poor", "price": 30, "image": "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg", "category": "Others" },
+    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "Good",
+      "price": 5, "image": "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg", "category": "Others"
+    },
+    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "Excellent",
+      "price": 20, "image": "https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg", "category": "Others"
+    }
   ]
 }
