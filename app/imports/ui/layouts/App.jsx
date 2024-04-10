@@ -21,6 +21,7 @@ import EditProfile from '../pages/EditProfile';
 
 // Items
 import AddItem from '../pages/AddItem';
+import EditItem from '../pages/EditItem';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 const App = () => {
@@ -43,7 +44,9 @@ const App = () => {
           <Route path="/notauthorized" element={<NotAuthorized />} />
           <Route path="*" element={<NotFound />} />
 
+          {/*Items*/}
           <Route path="/addItem" element={<ProtectedRoute><AddItem /></ProtectedRoute>} />
+          <Route path="/editItem/:_id" element={<ProtectedRoute><EditItem /></ProtectedRoute>} />
 
           <Route path="/listProfile" element={<ProtectedRoute><UserProfile /></ProtectedRoute>} />
           <Route path="/addProfile" element={<ProtectedRoute><AddProfile /></ProtectedRoute>} />
