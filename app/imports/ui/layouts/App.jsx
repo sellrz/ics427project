@@ -19,6 +19,9 @@ import UserProfile from '../pages/UserProfile';
 import AddProfile from '../pages/AddProfile';
 import EditProfile from '../pages/EditProfile';
 
+// Items
+import AddItem from '../pages/AddItem';
+
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 const App = () => {
   const { ready } = useTracker(() => {
@@ -39,6 +42,8 @@ const App = () => {
           <Route path="/home" element={<ProtectedRoute><Landing /></ProtectedRoute>} />
           <Route path="/notauthorized" element={<NotAuthorized />} />
           <Route path="*" element={<NotFound />} />
+
+          <Route path="/addItem" element={<ProtectedRoute><AddItem /></ProtectedRoute>} />
 
           <Route path="/listProfile" element={<ProtectedRoute><UserProfile /></ProtectedRoute>} />
           <Route path="/addProfile" element={<ProtectedRoute><AddProfile /></ProtectedRoute>} />
