@@ -6,7 +6,6 @@ import { Roles } from 'meteor/alanning:roles';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
-import ListStuffAdmin from '../pages/ListStuffAdmin';
 import NotFound from '../pages/NotFound';
 import SignUp from '../pages/SignUp';
 import SignOut from '../pages/SignOut';
@@ -27,6 +26,7 @@ import ListItemUser from '../pages/ListItemUser';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 const App = () => {
+  // eslint-disable-next-line no-unused-vars
   const { ready } = useTracker(() => {
     const rdy = Roles.subscription.ready();
     return {
@@ -52,7 +52,6 @@ const App = () => {
           <Route path="/listProfile" element={<ProtectedRoute><UserProfile /></ProtectedRoute>} />
           <Route path="/addProfile" element={<ProtectedRoute><AddProfile /></ProtectedRoute>} />
           <Route path="/editProfile/:_id" element={<ProtectedRoute><EditProfile /></ProtectedRoute>} />
-          <Route path="/admin" element={<AdminProtectedRoute ready={ready}><ListStuffAdmin /></AdminProtectedRoute>} />
         </Routes>
         <Footer />
       </div>
