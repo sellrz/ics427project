@@ -44,7 +44,22 @@ class NavBar {
 
   /* Go to the profile page. */
   async gotoProfilePage(testController) {
-    await testController.click('#profile-nav');
+    await testController.click('#list-item-nav');
+  }
+
+  /* Go to the add item page. */
+  async gotoAddItemPage(testController){
+    await testController.click('#add-item-nav');
+  }
+
+  /* Go to the user item list page. */
+  async gotoUserItemListPage(testController){
+    await testController.click('#listitemuser-page');
+  }
+
+  /* Go to the item list page. */
+  async gotoItemListPage(testController){
+    await testController.click('#listitem-page');
   }
 
   /** Pull down login menu, go to sign up page. */
